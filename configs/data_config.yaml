@@ -1,0 +1,6 @@
+data_spec:
+  input_bit_depth: 16  # 输入位深
+  target_bit_depth: 8   # 目标位深
+  dynamic_range:
+    input_normalization: [0, 1]  # 输入归一化范围
+    target_normalization: [0, 1] # 目标归一化范围
