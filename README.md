@@ -81,29 +81,29 @@ MAE均值: 0.0421
 
 
 
-Project Structure
-├── configs/
-│   └── train_config.yaml      # Configuration file for training
+Project Structure 
+├── configs/ 
+│   └── train_config.yaml      # Configuration file for training 
 ├── data/
 │   ├── train/
-│   │   ├── low_500/          # Low-quality training images (TIFF)
-│   │   └── high_500/         # High-quality target images (JPG)
-│   ├── val/
-│   │   ├── low_50/           # Low-quality validation images
-│   │   └── high_50/          # High-quality validation targets
+│   │   ├── low_500/          # Low-quality training images (TIFF) 
+│   │   └── high_500/         # High-quality target images (JPG) 
+│   ├── val/  
+│   │   ├── low_50/           # Low-quality validation images 
+│   │   └── high_50/          # High-quality validation targets 
 │   └── test/
-│       ├── low/              # Low-quality test images
-│       └── high/             # High-quality test targets
-├── models/
-│   ├── checkpoints/           # Model checkpoints
-│   ├── base_unet.py          # Basic U-Net implementation
-│   └── components.py         # Custom modules (attention, frequency, non-local)
-├── output/                    # Enhanced images and comparison samples
-├── evaluation_samples/        # Visualization of input, enhanced, and target images
-├── train.py                   # Training script
-├── inference.py               # Inference script for single/batch processing
-├── evaluate.py                # Evaluation script for metrics
-└── README.md                  # This file
+│       ├── low/              # Low-quality test images 
+│       └── high/             # High-quality test targets 
+├── models/ 
+│   ├── checkpoints/           # Model checkpoints 
+│   ├── base_unet.py          # Basic U-Net implementation 
+│   └── components.py         # Custom modules (attention, frequency, non-local) 
+├── output/                    # Enhanced images and comparison samples 
+├── evaluation_samples/        # Visualization of input, enhanced, and target images 
+├── train.py                   # Training script 
+├── inference.py               # Inference script for single/batch processing 
+├── evaluate.py                # Evaluation script for metrics 
+└── README.md                  # This file 
 
 Contributing
 Contributions are welcome! To contribute:
